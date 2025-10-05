@@ -137,10 +137,7 @@ SchoolManagementSystem/
 ## Future Improvements
 - Implement secure authentication with password hashing.
 - Add mobile app integration for better accessibility.
-- Enhance scalability with cloud deployment (e.g., AWS).
-- Incorporate multilingual support (Sinhala, Tamil, English).
 
 ## Contact
 - **Student**: D.M.C.D.B Dissanayaka (CSE 23346)
 - **Supervisor**: W.M.L.N Wanninayake
-- **Date**: October 06, 2025, 12:43 AM +0530
