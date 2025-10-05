@@ -1,0 +1,26 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.hover-anim {
+    transition: all 0.3s ease;
+}
+
+.hover-anim:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hover-anim:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.5);
+}
