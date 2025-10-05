@@ -1,57 +1,56 @@
-School Student Management System
-Project Overview
+# School Student Management System
+
+## Project Overview
 This project, developed as part of HDSE 264 – Computer Project II, aims to create a comprehensive School Student Management System. The system is designed to streamline and centralize administrative and academic processes in educational institutions across Sri Lanka, addressing the lack of appropriate software solutions for managing operations in schools with over 4.2 million students and 235,924 teachers (as of 2021 data).
 
-Student: D.M.C.D.B Dissanayaka (Registration No: CSE 23346)
-Supervisor: W.M.L.N Wanninayake
-Project Approval: Lakmini Wanninayake
+- **Student**: D.M.C.D.B Dissanayaka (Registration No: CSE 23346)
+- **Supervisor**: W.M.L.N Wanninayake
+- **Project Approval**: Lakmini Wanninayake
 
-Objective
+### Objective
 The system enhances efficiency, accuracy, and communication within schools by providing a platform for effective student management, attendance tracking, academic monitoring, and more.
-Scope
 
-Student Information Management
-Attendance Tracking
-Academic Performance Monitoring
-Parent-Teacher Communication
-Library Management
-Exam and Assessment Management
-User-Friendly Interface
+### Scope
+1. Student Information Management
+2. Attendance Tracking
+3. Academic Performance Monitoring
+4. Parent-Teacher Communication
+5. Library Management
+6. Exam and Assessment Management
+7. User-Friendly Interface
 
-Functional Requirements
+### Functional Requirements
+1. User Authentication and Authorization
+2. Student Profile Management
+3. Attendance Tracking
+4. Grading System
+5. Class Scheduling and Timetabling
+6. Parent-Teacher Communication
+7. Library Management
+8. Fee Management (for Private Fields only)
+9. Report Generation
+10. Communication and Notification
+11. Search Functionality
 
-User Authentication and Authorization
-Student Profile Management
-Attendance Tracking
-Grading System
-Class Scheduling and Timetabling
-Parent-Teacher Communication
-Library Management
-Fee Management (for Private Fields only)
-Report Generation
-Communication and Notification
-Search Functionality
+### Non-Functional Requirements
+1. Performance
+2. Scalability
+3. Reliability
+4. Security
+5. Usability and User Experience
+6. Data Backup and Recovery
+7. Maintainability
+8. Interoperability
+9. Response Time
+10. Training and Support
 
-Non-Functional Requirements
+## Technologies Used
+- **Frontend**: HTML, CSS (Bootstrap), JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
 
-Performance
-Scalability
-Reliability
-Security
-Usability and User Experience
-Data Backup and Recovery
-Maintainability
-Interoperability
-Response Time
-Training and Support
-
-Technologies Used
-
-Frontend: HTML, CSS (Bootstrap), JavaScript
-Backend: PHP
-Database: MySQL
-
-File Structure
+## File Structure
+```
 SchoolManagementSystem/
 ├── /css/
 │   ├── style.css          # Custom CSS with Bootstrap integration
@@ -105,51 +104,43 @@ SchoolManagementSystem/
 │   ├── logo.png             # School logo
 ├── database.sql             # Database schema
 └── README.md                # This file
+```
 
-Setup Instructions
+## Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd SchoolManagementSystem
+   ```
 
-Clone the Repository:
-git clone <repository-url>
-cd SchoolManagementSystem
+2. **Install Dependencies**:
+   - Ensure a web server with PHP and MySQL is set up (e.g., XAMPP or WAMP).
+   - Bootstrap is loaded via CDN, no local installation needed.
 
+3. **Database Setup**:
+   - Import `database.sql` into your MySQL server to create the `school_db` database.
+   - Update `config.php` with your database credentials if different from the default (`root`, no password, `localhost`).
 
-Install Dependencies:
+4. **Run the Application**:
+   - Start your web server (e.g., Apache in XAMPP).
+   - Access the application via `http://localhost/SchoolManagementSystem/pages/auth/login.html`.
 
-Ensure a web server with PHP and MySQL is set up (e.g., XAMPP or WAMP).
-Bootstrap is loaded via CDN, no local installation needed.
+5. **Development**:
+   - Edit HTML files in `/pages`, CSS in `/css`, JavaScript in `/js`, and PHP in `/php`.
+   - Use `header.php` and `footer.php` for consistent layouts.
 
+## Usage
+- Log in with provided credentials (to be defined in `auth.php`).
+- Navigate through the dashboard to manage students, attendance, grades, etc.
+- Generate reports and communicate with parents/teachers as needed.
 
-Database Setup:
+## Future Improvements
+- Implement secure authentication with password hashing.
+- Add mobile app integration for better accessibility.
+- Enhance scalability with cloud deployment (e.g., AWS).
+- Incorporate multilingual support (Sinhala, Tamil, English).
 
-Import database.sql into your MySQL server to create the school_db database.
-Update config.php with your database credentials if different from the default (root, no password, localhost).
-
-
-Run the Application:
-
-Start your web server (e.g., Apache in XAMPP).
-Access the application via http://localhost/SchoolManagementSystem/pages/auth/login.html.
-
-
-Development:
-
-Edit HTML files in /pages, CSS in /css, JavaScript in /js, and PHP in /php.
-Use header.php and footer.php for consistent layouts.
-
-
-
-Usage
-
-Log in with provided credentials (to be defined in auth.php).
-Navigate through the dashboard to manage students, attendance, grades, etc.
-Generate reports and communicate with parents/teachers as needed.
-
-Future Improvements
-
-Implement secure authentication with password hashing.
-Add mobile app integration for better accessibility.
-
-Contact
-
-Student: D.M.C.D.B Dissanayaka (CSE 23346)
-Supervisor: W.M.L.N Wanninayake
+## Contact
+- **Student**: D.M.C.D.B Dissanayaka (CSE 23346)
+- **Supervisor**: W.M.L.N Wanninayake
+- **Date**: October 06, 2025, 12:43 AM +0530
