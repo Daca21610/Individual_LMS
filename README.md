@@ -5,7 +5,6 @@ This project, developed as part of HDSE 264 – Computer Project II, aims to cre
 
 - **Student**: D.M.C.D.B Dissanayaka (Registration No: CSE 23346)
 - **Supervisor**: W.M.L.N Wanninayake
-- **Project Approval**: Lakmini Wanninayake
 
 ### Objective
 The system enhances efficiency, accuracy, and communication within schools by providing a platform for effective student management, attendance tracking, academic monitoring, and more.
